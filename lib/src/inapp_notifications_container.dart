@@ -94,7 +94,7 @@ class InAppNotificationsContainerState
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 40.0),
+      margin: InAppNotificationsTheme.margin,
       child: Stack(
         alignment: AlignmentDirectional.topCenter,
         children: <Widget>[
