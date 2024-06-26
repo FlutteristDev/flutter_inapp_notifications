@@ -94,6 +94,7 @@ InAppNotifications.instance
   ..textColor = Colors.black
   ..backgroundColor = Colors.white
   ..shadow = true
+  ..margin = EdgeInsets.only(top: 56)
   ..animationStyle = InAppNotificationsAnimationStyle.scale;
 
 // Custom animation
