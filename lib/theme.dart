@@ -45,4 +45,7 @@ class InAppNotificationsTheme {
 
     return animation;
   }
+
+  /// Margin of the notifications container set to [InAppNotifications] instance
+  static EdgeInsets get margin => InAppNotifications.instance.margin;
 }

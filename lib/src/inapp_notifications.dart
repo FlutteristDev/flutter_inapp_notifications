@@ -47,6 +47,7 @@ class InAppNotifications {
     backgroundColor = Colors.white;
     shadow = true;
     animationStyle = InAppNotificationsAnimationStyle.offset;
+    margin = const EdgeInsets.only(top: 40.0);
   }
 
   final List<InAppNotificationsStatusCallback> _statusCallbacks =
@@ -83,6 +84,9 @@ class InAppNotifications {
   ///
   /// Set a custom animation only when [animationStyle] is [InAppNotificationsAnimationStyle.custom]
   late InAppNotificationAnimation? customAnimation;
+
+  /// Margin of the notifications container, default: EdgeInsets.only(top: 40.0).
+  late EdgeInsets margin;
 
   static TransitionBuilder init({
     TransitionBuilder? builder,
